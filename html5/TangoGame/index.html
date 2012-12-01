@@ -1,0 +1,47 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org" ng-app="tangoBingo">
+  <head>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bingo.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <navigation-bar></navigation-bar>
+
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span8">
+          <div class="hero-unit" >
+            <round-info></round-info>
+            <game-cards></game-cards>
+          </div>
+        </div>
+        <div class="span4">
+          <player-info></player-info>
+          <br/>
+          <chat-panel></chat-panel>
+        </div>
+      </div>
+    </div>
+    <script type="text/vbscript" src="js/libs/ieBinaryArray.vbs"></script>
+<!--
+    <script src="./js/libs/jquery-1.7.2.js"></script>
+    <script src="./js/libs/angular-1.0.0rc10.js"></script>
+    <script src="./js/libs/amf.js"></script>
+    <script src="./js/libs/bootstrap.js"></script>
+    <script src="./js/libs/json2.js"></script>
+-->
+    <script data-main="js/main.js" src="js/libs/require.js"></script>
+
+
+  </body>
+</html>
+

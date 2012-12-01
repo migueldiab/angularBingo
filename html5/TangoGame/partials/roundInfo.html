@@ -1,0 +1,30 @@
+<div class="row-fluid" ng-controller="RoundController">
+  <div class="span8">
+    <h1>{{game.name}}</h1>
+  </div>
+  <div class="span1">
+    <h3>Ball</h3>
+    <h2 class="btn">{{game.jackpotBalls}}</h2>
+  </div>
+  <div class="span3">
+    <h3>Velocidade</h3>
+    <div class="btn-group">
+      <h2 class="btn">1</h2>
+      <h2 class="btn">3</h2>
+      <h2 class="btn">6</h2>
+      <h2 class="btn">∞</h2>
+    </div>
+  </div>
+</div>
+<div class="row-fluid" ng-controller="RoundController">
+  <div class="span9">
+    <img src="./img/balls.jpg" />
+  </div>
+  <div class="span3 badge badge-warning">
+    <h3>ACUMULADO</h3>
+    <h2 class="btn">U$S 353,24</h2>
+
+    <h4>{{game.jackpotBalls}}</h4>
+  </div>
+</div>
+<br/>
